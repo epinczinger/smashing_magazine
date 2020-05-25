@@ -186,8 +186,11 @@ p {
   background-color: var(--gray2);
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: flex-start;
-  padding: 20px;
+  /* padding: 20px; */
+  padding-left: 50px;
+  /* margin: 20px; */
 }
 .cl-grid:hover,
 .all-articles:hover {
@@ -208,7 +211,8 @@ p {
   background-color: var(--gray4);
 }
 
-.featured-container p {
+.featured-container p,
+.featured-container h2 {
   margin: 10px 40% 10px 5%;
 }
 
