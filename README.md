@@ -1,8 +1,10 @@
 # Smashing Magazine
 
-> In this project I built a clone webpage of the Apple webpage. I had to create the article required applying grids and background images, I also used flexbox and grid.
+ The aim of this project is to play with background colors to achieve a heatmap of the [Smashing Megazine](https://www.smashingmagazine.com/) site.
 
 ![screenshot](./assets/screenshot.jpeg)
+
+## Demo Link
 
 [Live Demo Link](https://raw.githack.com/epinczinger/smashing_magazine/design/index.html).
 
