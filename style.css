@@ -1,37 +1,99 @@
 /* General */
+:root {
+  --gray1: #c4c4c4;
+  --gray2: #adadad;
+  --gray3: #969696;
+  --gray4: #848484;
+  --gray5: #757575;
+  --gray6: #5b5b5b;
+  --gray7: #3f3f3f;
+}
+
+p {
+  background-color: var(--gray1);
+  border-radius: 10px;
+  /* text-align: center; */
+  display: inline-block;
+  /* margin: auto; */
+}
+
 *,
 *::after,
 *::before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-       box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.nav-container {
+  background-color: var(--gray2);
+  height: 100px;
 }
 
 .nav-bar {
   display: flex;
   justify-content: space-around;
+  height: 100%;
+}
+
+.nav-icon {
+  align-self: center;
 }
 
 .main-art {
-  display: flex;
-  justify-content: stretch;
+  display: grid;
+  /* justify-content: stretch; */
+  grid-template-columns: repeat(2, minmax(auto, 1fr));
+  grid-template-rows: repeat(2, minmax(auto, 1fr));
+  /* background-color: red; */
+  height: 800px;
+  text-align: center;
+  /* align-items: center; */
 }
+
+.main-art-items {
+  /* align-self: center; */
+  /* width: 50%; */
+  /* padding: auto; */
+}
+
+.main-1 {
+  background-color: var(--gray3);
+}
+
+.main-2 {
+  background-color: var(--gray5);
+}
+.main-3 {
+  background-color: var(--gray4);
+}
+.main-4 {
+  background-color: var(--gray2);
+}
+
 .main-sub {
-  display: flex;
+  /* display: flex; */
+  height: 500px;
+  margin: 5% 40% 5% 13%;
+  /* box-sizing: border-box; */
 }
 
 .latest-post-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 80%);
+  grid-template-columns: repeat(4, minmax(200px, 1fr));
+  grid-template-rows: repeat(3, minmax(200px, 1fr));
+}
+
+.post-grid-items {
+  height: 500px;
 }
 
 .one {
-  grid-area: 1 / 1 ;
+  grid-area: 1 / 1;
 }
 
 .two {
-  grid-area: 1 / 2 ;
+  grid-area: 1 / 2;
 }
 
 .three {
@@ -39,11 +101,11 @@
 }
 
 .four {
-  grid-area: 2 / 1 / span 1 /span 2;
+  grid-area: 2 / 1 / span 1 / span 2;
 }
 
 .five {
-  grid-area: 2 / 3 ;
+  grid-area: 2 / 3;
 }
 
 .six {
@@ -61,5 +123,3 @@
 .nine {
   grid-area: 3 / 3 / span 1 / span 2;
 }
-
-
