@@ -57,6 +57,7 @@ p {
   border-radius: 10px;
   color: var(--gray1);
 }
+
 .nav-icon:hover {
   opacity: 90%;
 }
@@ -92,9 +93,11 @@ p {
 .main-2 {
   background-color: var(--gray6);
 }
+
 .main-3 {
   background-color: var(--gray5);
 }
+
 .main-4 {
   background-color: var(--gray3);
 }
@@ -107,6 +110,7 @@ p {
 
 .latest-post-grid {
   display: grid;
+
   /* grid-gap: 2px; */
   grid-template-columns: repeat(4, minmax(200px, 1fr));
   grid-template-rows: repeat(3, minmax(200px, 1fr));
@@ -159,8 +163,6 @@ p {
 }
 
 .add-center {
-  background-color: var(--gray6);
-  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -188,10 +190,23 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+
   /* padding: 20px; */
   padding-left: 50px;
+
   /* margin: 20px; */
 }
+
+.all-articles {
+  height: 150px;
+  background-color: var(--gray2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
 .cl-grid:hover,
 .all-articles:hover {
   background-color: var(--gray3);
@@ -219,7 +234,6 @@ p {
 .list-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-
   height: auto;
   background-color: var(--gray2);
 }
@@ -260,16 +274,6 @@ p {
   margin-top: 20px;
 }
 
-.all-articles {
-  height: 150px;
-  background-color: var(--gray2);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
-}
-
 .footer-list {
   height: 300px;
   background-color: var(--gray7);
@@ -286,6 +290,7 @@ p {
   text-decoration: underline;
   color: black;
 }
+
 .main-sub:hover,
 .add-center:hover,
 .featured-container:hover,
