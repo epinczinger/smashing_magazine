@@ -6,7 +6,6 @@
 
 [Live Demo Link](https://raw.githack.com/epinczinger/smashing_magazine/design/index.html).
 
-
 ## Built With
 
 - HTML5
@@ -26,6 +25,15 @@
 - Twitter: [@epinczinger](https://twitter.com/epinczinger)
 - Linkedin: [linkedin](https://www.linkedin.com/in/esteban-pinczinger-busai-ab49a254/?originalSubdomain=ar)
 
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+1. Open the terminal comand line window
+2. `git clone https://github.com/epinczinger/smashing_magazine.git`
+3. Open the index.html with your favorite browser
+4. Enjoy!
+
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
@@ -35,4 +43,3 @@ Feel free to check the [Issue page](https://github.com/epinczinger/smashing_maga
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
