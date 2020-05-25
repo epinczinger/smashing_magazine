@@ -13,7 +13,6 @@ p {
   background-color: var(--gray1);
   border-radius: 10px;
   /* text-align: center; */
-  display: inline-block;
   /* margin: auto; */
 }
 
@@ -38,23 +37,32 @@ p {
 
 .nav-icon {
   align-self: center;
+  background-color: var(--gray7);
+  padding: 15px;
+  border-radius: 10px;
+  color: var(--gray1);
 }
 
 .main-art {
+  background-color: blue;
   display: grid;
-  /* justify-content: stretch; */
   grid-template-columns: repeat(2, minmax(auto, 1fr));
   grid-template-rows: repeat(2, minmax(auto, 1fr));
-  /* background-color: red; */
   height: 800px;
-  text-align: center;
-  /* align-items: center; */
 }
 
 .main-art-items {
-  /* align-self: center; */
-  /* width: 50%; */
-  /* padding: auto; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+}
+
+.main-art-items p {
+  padding: 10px;
+  margin: 10px;
 }
 
 .main-1 {
@@ -72,20 +80,32 @@ p {
 }
 
 .main-sub {
-  /* display: flex; */
+  background-color: var(--gray6);
   height: 500px;
-  margin: 5% 40% 5% 13%;
-  /* box-sizing: border-box; */
+  padding: 5% 40% 5% 13%;
 }
 
 .latest-post-grid {
   display: grid;
+  grid-gap: 2px;
   grid-template-columns: repeat(4, minmax(200px, 1fr));
   grid-template-rows: repeat(3, minmax(200px, 1fr));
 }
 
 .post-grid-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   height: 500px;
+  background-color: var(--gray3);
+  padding: 50px;
+}
+
+.post-grid-items p {
+  padding: 15px;
+  margin: 10px;
 }
 
 .one {
@@ -102,6 +122,7 @@ p {
 
 .four {
   grid-area: 2 / 1 / span 1 / span 2;
+  background-color: var(--gray6);
 }
 
 .five {
@@ -122,4 +143,42 @@ p {
 
 .nine {
   grid-area: 3 / 3 / span 1 / span 2;
+  background-color: var(--gray6);
+}
+
+.add-center {
+  background-color: var(--gray6);
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 500px;
+  background-color: var(--gray3);
+  padding: 50px;
+}
+
+.community-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4 1fr);
+  height: 700px;
+}
+
+.cl-one {
+  grid-area: 1 / 1 / span 1 / span 2;
+}
+
+.cl-grid {
+  background-color: var(--gray2);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+  padding: 20px;
+}
+
+.cl-grid p {
+  margin: 10px;
 }
